@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+package virtualmachine;
+option go_package = "./virtualmachine";
+
+message Test {
+  string label = 1;
+  repeated int64 reps = 2;
+}
